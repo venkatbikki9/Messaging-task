@@ -58,7 +58,8 @@ http://localhost:5000/action?sendmail=venkatbikki9@gmail.com
 Screenshots:
 <img width="1920" height="1080" alt="Screenshot (17)" src="https://github.com/user-attachments/assets/52d7022c-0d04-4af8-a940-c26304a76d8e" />
 <img width="1920" height="1080" alt="Screenshot (19)" src="https://github.com/user-attachments/assets/faa7aa83-2ede-4ed4-9f3c-d247978771f1" />
-<img width="1920" height="1080" alt="Screenshot (18)" src="https://github.com/user-attachments/assets/6e66afce-e06c-4da2-9862-61d5978e596a" />
+<img width="668" height="328" alt="Screenshot 2025-11-21 110609" src="https://github.com/user-attachments/assets/9a602f4f-cac1-4e46-bbf2-9c66e7eff6da" />
+
 
 CONCLUSION:
 This project successfully walked through building a messaging system using Flask, Celery, RabbitMQ, and Ngrok, with optional Nginx. we have learned to send emails asynchronously using Celery workers, run RabbitMQ for message brokering, expose the local app publicly via Ngrok, manage environment variables securely with .env, and improve deployment by configuring Nginx as a reverse proxy. Along the way, you debugged installation, routing, and port issues—gaining practical real-world experience.
