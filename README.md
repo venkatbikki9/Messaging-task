@@ -52,6 +52,25 @@ Celery  - celery -A app.celery_app.celery_app worker --loglevel=info
 Flask   - python app/main.py
 Ngrok   - ngrok http 80
 
+Step 9: I added a shell script named start_all.sh
+this includes all the commands to run the above venv,Celery,flask and Ngrok
+start_all.sh
+# Activate virtual environment
+source venv/bin/activate
+# Start Celery worker in background
+echo "Starting Celery worker..."
+celery -A app.celery_app.celery_app worker --loglevel=info &
+# Give Celery a few seconds to start
+sleep 5
+# Start Flask app
+echo "Starting Flask app..."
+python -m app.main &
+# Give Flask a few seconds to start
+sleep 5
+# Start Ngrok tunnel
+echo "Starting Ngrok..."
+ngrok http 5000
+
 
 Check :To check if it is woriking ,to send the mail , enter this URL:
 http://localhost:5000/action?sendmail=venkatbikki9@gmail.com
