@@ -81,8 +81,12 @@ ngrok http 5000
 Check :To check if it is woriking ,to send the mail , enter this URL:
 http://localhost:5000/action?sendmail=venkatbikki9@gmail.com
 Screenshots:
+<img width="1920" height="1080" alt="Screenshot (21)" src="https://github.com/user-attachments/assets/f34bc3de-35b8-46b4-809e-8424c48e7819" />
+
 <img width="1920" height="1080" alt="Screenshot (17)" src="https://github.com/user-attachments/assets/52d7022c-0d04-4af8-a940-c26304a76d8e" />
+
 <img width="1920" height="1080" alt="Screenshot (19)" src="https://github.com/user-attachments/assets/faa7aa83-2ede-4ed4-9f3c-d247978771f1" />
+
 <img width="668" height="328" alt="Screenshot 2025-11-21 110609" src="https://github.com/user-attachments/assets/9a602f4f-cac1-4e46-bbf2-9c66e7eff6da" />
 
 
